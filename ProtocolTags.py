@@ -23,7 +23,7 @@ class TextboxTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<TextBox Id=\"" + tag_id + "\"Name=\"\" ItemType=\"TextBox\" IsEnabled=\"true\" IsVisible=\"true\" Value=\"\" IsBoldLabel=\"true\" MinWidth=\"300\" IsRequired=\"true\" Lines=\"1\" />"
+        snippet = "<TextBox Id=\"" + tag_id + "\" Name=\"\" ItemType=\"TextBox\" IsEnabled=\"true\" IsVisible=\"true\" Value=\"\" IsBoldLabel=\"true\" MinWidth=\"300\" IsRequired=\"true\" Lines=\"1\" />"
 
         self.view.insert(edit, pos, snippet)
 
@@ -31,7 +31,7 @@ class TextblockTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<TextBlock Id=\"" + tag_id + "\"ItemType=\"TextBlock\" IsEnabled=\"true\" IsVisible=\"true\" Value=\"\" MinWidth=\"200\" IsBold=\"true\" />"
+        snippet = "<TextBlock Id=\"" + tag_id + "\" ItemType=\"TextBlock\" IsEnabled=\"true\" IsVisible=\"true\" Value=\"\" MinWidth=\"200\" IsBold=\"true\" />"
         
         self.view.insert(edit, pos, snippet)
         
@@ -39,7 +39,7 @@ class ComboboxTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<ComboBox Id=\"" + tag_id + "\"Name=\"\" ItemType=\"ComboBox\" IsEnabled=\"true\" IsVisible=\"true\" IsBoldLabel=\"true\" MinWidth=\"150\" IsRequired=\"true\" Values=\"\" IsTextEditable=\"true\" IsConclusionTemplate=\"false\" IsDictionaryTemplate=\"false\" Multiselect=\"false\" IsSelectedFromNetrika=\"false\" IsUseNetrika=\"false\" />"
+        snippet = "<ComboBox Id=\"" + tag_id + "\" Name=\"\" ItemType=\"ComboBox\" IsEnabled=\"true\" IsVisible=\"true\" IsBoldLabel=\"true\" MinWidth=\"150\" IsRequired=\"true\" Values=\"\" IsTextEditable=\"true\" IsConclusionTemplate=\"false\" IsDictionaryTemplate=\"false\" Multiselect=\"false\" IsSelectedFromNetrika=\"false\" IsUseNetrika=\"false\" />"
         
         self.view.insert(edit, pos, snippet)
 
@@ -47,7 +47,7 @@ class NumericboxTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<NumericBox Id=\"" + tag_id + "\"Name=\"\" ItemType=\"NumericBox\" IsRequired=\"true\" IsEnabled=\"true\" IsVisible=\"true\" Value=\"\" IsBoldLabel=\"true\" MinWidth=\"85\" Unit=\"\" FormatString=\"N0\" />"
+        snippet = "<NumericBox Id=\"" + tag_id + "\" Name=\"\" ItemType=\"NumericBox\" IsRequired=\"true\" IsEnabled=\"true\" IsVisible=\"true\" Value=\"\" IsBoldLabel=\"true\" MinWidth=\"85\" Unit=\"\" FormatString=\"N0\" />"
         
         self.view.insert(edit, pos, snippet)
 
@@ -55,7 +55,7 @@ class CheckboxTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<CheckBox Id=\"" + tag_id + "\"Name=\"\" ItemType=\"CheckBox\" IsEnabled=\"true\" IsVisible=\"true\" MinWidth=\"150\" TextTrue=\"\" TextFalse=\"\" />"
+        snippet = "<CheckBox Id=\"" + tag_id + "\" Name=\"\" ItemType=\"CheckBox\" IsEnabled=\"true\" IsVisible=\"true\" MinWidth=\"150\" TextTrue=\"\" TextFalse=\"\" />"
         
         self.view.insert(edit, pos, snippet)
         
@@ -63,7 +63,7 @@ class DateTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<Date Id=\"" + tag_id + "\"Name=\"\" ItemType=\"Date\" IsEnabled=\"true\" IsVisible=\"true\" IsLabelVisible=\"true\" />"
+        snippet = "<Date Id=\"" + tag_id + "\" Name=\"\" ItemType=\"Date\" IsEnabled=\"true\" IsVisible=\"true\" IsLabelVisible=\"true\" />"
         
         self.view.insert(edit, pos, snippet)
         
@@ -71,7 +71,7 @@ class StackpanelTagCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         pos = self.view.sel()[0].begin()
         tag_id = ''.join(random.sample(string.ascii_letters + string.digits, random.randint(3, 5)))
-        snippet = "<StackPanel Id=\"" + tag_id + "\"Name=\"\" ItemType=\"StackPanel\" IsEnabled=\"true\" IsVisible=\"true\" IsLabelVisible=\"false\" Orientation=\"Horizontal\">\n\t\n</StackPanel>"
+        snippet = "<StackPanel Id=\"" + tag_id + "\" Name=\"\" ItemType=\"StackPanel\" IsEnabled=\"true\" IsVisible=\"true\" IsLabelVisible=\"false\" Orientation=\"Horizontal\">\n\t\n</StackPanel>"
         
         self.view.insert(edit, pos, snippet)
         
