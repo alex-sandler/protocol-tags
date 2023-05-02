@@ -1,0 +1,8 @@
+{
+    "details": "https://github.com/<user>/<repo>",
+    "author": "<author>",
+    "readme": "README.md",
+    "name": "<name>",
+    "labels": ["<label1>", "<label2>", ...],
+    "description": "<description>"
+}

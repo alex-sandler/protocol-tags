@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "Protocol Tags",
+        "id": "custom_menu",
+        "children": [
+            {"command": "textbox_tag", "caption": "TextBox"},
+            {"command": "textblock_tag", "caption": "TextBlock"},
+            {"command": "combobox_tag", "caption": "ComboBox"},
+            {"command": "mkb_tag", "caption": "MKBDiagnosis"},
+            {"command": "numericbox_tag", "caption": "NumericBox"},
+            {"command": "checkbox_tag", "caption": "CheckBox"},
+            {"command": "date_tag", "caption": "Date"},
+            {"command": "stackpanel_tag", "caption": "StackPanel"},
+        ]
+    }
+]
+
+

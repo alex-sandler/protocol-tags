@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Insert Random Number",
+        "command": "insert_random_number"
+    }
+]
