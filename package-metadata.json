@@ -1,8 +1,8 @@
 {
-    "details": "https://github.com/<user>/<repo>",
-    "author": "<author>",
+    "details": "https://github.com/alex-sandler/protocol-tags",
+    "author": "alex-sandler",
     "readme": "README.md",
-    "name": "<name>",
-    "labels": ["<label1>", "<label2>", ...],
-    "description": "<description>"
+    "name": "ProtocolTags",
+    "labels": ["ProtocolTags"],
+    "description": ""
 }
